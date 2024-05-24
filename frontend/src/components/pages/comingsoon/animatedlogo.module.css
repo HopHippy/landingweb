@@ -1,12 +1,17 @@
 
 .Comingsoondiv { 
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
 /* animation: Comingsoon-spinner 2s linear infinite;*/
     animation: Comingsoon-spinner 2s infinite;
-
+    border-inline-start-style: groove;
+writing-mode: horizontal-tb;
+direction: rtl;
+    border-radius: 30% / 50%;
 }
+
     .h3 .h2 .h1{
     .drop-shadow {
         text-shadow: 11px 11px 14px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 0, 0, 0.5);
